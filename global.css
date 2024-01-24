@@ -1,0 +1,62 @@
+.cabeçalho {
+    display: flex;
+    background-color: gray;
+    padding: 5px;
+    justify-content: center;
+}
+* {color: white;}
+
+.Titulo {
+    color: black;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 100px;
+    justify-content: center;
+    font-size: 50px;
+}
+
+a {
+    display: flex;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 100px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6,200px);
+    grid-template-rows: repeat(1,300px);
+    grid-template-areas:"Cartaz1 Cartaz2 Cartaz3 Cartaz4 Cartaz5 Cartaz6";
+column-gap: 20px;
+margin-top: 50px;
+width: 98%;
+margin-left: 20px;
+}
+
+ .foto {width: 98%;
+height: 98%;}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    gap: 40px;
+  }
+  
+
